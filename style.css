@@ -1,0 +1,30 @@
+body {
+  background-image: url('halloween3.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h1
+{
+  color:crimson !important;
+  font-weight: bolder !important;
+  font-family:'Nosifer', sans-serif !important;
+  font-size: 60px !important;
+}
+.btn-success:hover
+{
+background-color: red;
+}
+canvas {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+
+from {box-shadow: 1px 1px 38px red;}
+to {box-shadow: 1px 1px 38px yellow;}
+
+}
